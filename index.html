@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil profesional | Karol Sofia Pinzon Ladino</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="encabezado">
+        <div class="container">
+            <h1>Karol Sofia Pinzon Ladino</h1>
+            <p>Ingeniería Multimedia</p>
+            <nav>
+                <a href="#sobre-mi">Sobre mí</a>
+                <a href="#proyectos">Proyectos</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+        </div>
+        <hr>
+    </header>
+
+    <main class="container">
+        <section id="sobre-mi" class="sobre-mi">
+            <div class="sobre-mi-contenido">
+                <img src="assets/img/karol_foto.jpg" alt="Foto de Karol" class="foto-perfil">
+                <div>
+                    <h2>Sobre mí</h2>
+                    <p>Soy Karol Sofía Pinzón Ladino, estudio Ingeniería Multimedia y vivo en Funza. Me interesan la programación, el diseño, la tecnología y la creación audiovisual, además de la música, el cine, las peliculas animadas y la fotrografia. Soy una persona creativa, constante y con muchas ganas de seguir creciendo personal y profesionalmente.</p>
+                    <p>Me motiva poder construir un futuro haciendo lo que me gusta. Elegí Ingeniería Multimedia porque es una carrera muy artística y creativa, en la que puedo enfocarme en la realización audiovisual, la animación y el modelado 3D. Mi familia es mi mayor motivación, y quiero lograr estabilidad económica y vivir de lo que me apasiona.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Habilidades</h2>
+            <p>Tengo ideas creativas enfocadas en la realización audiovisual, la animación y el modelado 3D, y técnicas relacionadas con la programación y el uso de herramientas digitales para potenciar mis proyectos multimedia.</p> 
+        </section>
+
+        <section>
+            <h2>Gustos y hobbies</h2>
+            <p>En mi tiempo libre me gusta nadar, montar bicicleta, dibujar, pintar, escuchar música, ver películas y dedicarme a la fotografía, ya que disfruto mucho capturar momentos y expresar mi creatividad.</p>
+            <p>Mi carrera se relaciona directamente con mis hobbies porque muchas de las cosas que disfruto hacer aumentan mi creatividad. Dibujar, pintar, la fotografía, ver películas y escuchar música influyen en mi mirada artística y en mi interés por la realización audiovisual y la animación. Además, la natación y el ciclismo me ayudan a mantener un equilibrio, calma, disciplina y constancia, cualidades que también aplico en mis proyectos de Ingeniería Multimedia.</p>
+        </section>
+
+        <section>
+            <h2>Formación</h2>
+            <p>Fundación Universitaria Compensar</p>
+            <p>Bachiller y técnico en comercio - Colegio Técnico Industrial Corazón de María.</p>
+        </section>
+
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+            <div class="contenedor-proyectos">
+                <article>
+                    <h3>Proyecto 1: Demo en Video</h3>
+                    <figure>
+                        <video controls width="100%" style="border-radius: 10px;">
+                            <source src="assets/img/proyecto1.mp4" type="video/mp4">
+                        </video>
+                        <figcaption>Video demostrativo de mis primeros proyectos multimedia.</figcaption>
+                    </figure>
+                </article>
+
+                <article>
+                    <h3>Proyecto 2</h3>
+                    <figure>
+                        <video controls width="100%" style="border-radius: 10px;">
+                            <source src="assets/img/proyecto2.mp4" type="video/mp4">
+                        </video>
+                        <figcaption>Video demostrativo de mis primeros proyectos multimedia.</figcaption>
+                    </figure>
+                </article>
+
+                <article>
+                    <h3>Proyecto 3</h3>
+                    <figure>
+                        <img src="assets/img/proyecto3.jpg" alt="Proyecto 3">
+                        <figcaption>Modelado 3D profesional.</figcaption>
+                    </figure>
+                </article>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p><strong>Correo:</strong> kspinzon@ucompensar.edu.co</p>
+            <p><strong>Teléfono:</strong> +57 316 6026911</p>
+            <p><strong>Ciudad:</strong> Funza, Colombia</p>
+            
+            <form>
+                <div>
+                    <label for="nombre">Nombre</label>
+                    <input id="nombre" type="text" required placeholder="Ej: Sofia Pinzon">
+                </div>
+                <div>
+                    <label for="correo">Correo electrónico</label>
+                    <input id="correo" type="email" required placeholder="ejemplo@email.com">
+                </div>
+                <div>
+                    <label for="telefono">Teléfono</label>
+                    <input id="telefono" type="tel" placeholder="+57 300 000000">
+                </div>
+                <div>
+                    <label for="motivo">Motivo del contacto</label>
+                    <select id="motivo" required>
+                        <option value="">Selecciona una opción</option>
+                        <option value="cotizacion">Cotización de proyecto</option>
+                        <option value="colaboracion">Colaboración</option>
+                        <option value="empleo">Oportunidad laboral</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" required minlength="20" maxlength="300" placeholder="Describe tu solicitud con mínimo 20 caracteres"></textarea>
+                </div>
+                <div class="checkbox-group">
+                    <input id="acepto" type="checkbox" required>
+                    <label for="acepto" style="display: inline;">Acepto el tratamiento de datos</label>
+                </div>
+                <button type="submit">Enviar mensaje</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Metas Profesionales</h2>
+            <h3>Meta corto plazo</h3>
+            <p>Mi meta para este semestre es reforzar mis conocimientos en HTML, CSS, modelado 3D y matemáticas, mejorar mis notas académicas y seguir desarrollando mis habilidades creativas en Ingeniería Multimedia.</p>
+            <h3>Meta a mediano plazo</h3>
+            <p>Mi meta profesional futura es vivir de la multimedia, trabajar en proyectos de realización audiovisual, animación y modelado 3D, alcanzar estabilidad económica, seguir creciendo academicamente y personalmente.</p> 
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <hr>
+            <p>Creado por: Karol Sofia Pinzon Ladino - 2026</p>
+        </div>
+    </footer>
+</body>
+</html>

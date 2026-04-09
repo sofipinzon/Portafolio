@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #cd8be5;
+    color: #222;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #d7b2e6;
+    border-radius: 12px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #470077;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #8e44ad;
+    border-bottom: 2px solid #8e44ad;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.sobre-mi-contenido {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.sobre-mi img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+
+.contenedor-proyectos {
+    display: flex;
+    gap: 20px;
+}
+
+.contenedor-proyectos article {
+    flex: 1;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+article img, article video {
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+form div {
+    margin-bottom: 16px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background: #111;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #333;
+}
+
+@media (max-width: 768px) {
+    .contenedor-proyectos {
+        flex-direction: column;
+    }
+
+    .sobre-mi-contenido {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sobre-mi img {
+        width: 140px;
+        height: 140px;
+    }
+
+    .container {
+        padding: 20px;
+        margin: 10px auto;
+    }
+
+    nav {
+        gap: 15px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+}
+
+
+
+
+
+
+
+
+
